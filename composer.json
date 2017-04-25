@@ -1,0 +1,8 @@
+{
+    "name": "ustboniface/moodle-themes",
+    "description": "University of St. Boniface themes",
+    "type": "package",
+    "require": {
+        "lambdasolutions/composer_moodle_package_installer": "~0.1"
+    }
+}
