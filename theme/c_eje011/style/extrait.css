@@ -1,0 +1,47 @@
+/**
+ * ************************************************************************
+ * *                  Saint Boniface - TRADUCTION                        **
+ * ************************************************************************
+ * @package     theme                                                    **
+ * @subpackage  boniface_trad                                            **
+ * @name        boniface_trad                                            **
+ * @copyright   oohoo.biz                                                **
+ * @link        http://oohoo.biz                                         **
+ * @author      Nicolas Bretin                                           **
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later **
+ * ************************************************************************
+ * ************************************************************************ */
+
+.extrait{
+	padding:0px;
+	margin:0px;
+    background-image: url([[pix:theme|extrait/rip-repete]]);
+	background-repeat:repeat-y;
+	background-position:top right;
+	width:80%;
+	background-color:#fff2b2;}
+	
+.extraitHaut{
+    background-image: url([[pix:theme|extrait/haut-repete]]);
+	height:46px;
+	background-repeat:repeat-x;}
+
+.extraitBas{
+    background-image: url([[pix:theme|extrait/bas-repete]]);
+	height:44px;
+	background-repeat:repeat-x;}
+
+.extraitMid{
+	padding:10px 63px 10px 10px;}
+	
+.extraitCoteHaut{
+	float:right;
+	height:46px;
+    background-image: url([[pix:theme|extrait/haut-stable]]);
+	width:64px;}
+
+.extraitCoteBas{
+	float:right;
+    background-image: url([[pix:theme|extrait/bas-stable]]);
+	height:47px;
+	width:64px;}

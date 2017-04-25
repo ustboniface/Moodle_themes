@@ -1,0 +1,43 @@
+/**
+ * ************************************************************************
+ * *                  Saint Boniface - TRADUCTION                        **
+ * ************************************************************************
+ * @package     theme                                                    **
+ * @subpackage  boniface_trad                                            **
+ * @name        boniface_trad                                            **
+ * @copyright   oohoo.biz                                                **
+ * @link        http://oohoo.biz                                         **
+ * @author      Nicolas Bretin                                           **
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later **
+ * ************************************************************************
+ * ************************************************************************ */
+
+
+/* FORMAT Icones Trad*/
+.forumDiscussion, .video, .lecture {
+    list-style: none outside none;
+    margin: 0;
+    min-height: 70px;
+    padding: 7px 0 3px 70px;
+	}
+
+.forumDiscussion {
+  background: url([[pix:theme|icones/iconesForum]]) no-repeat left top;
+  background-position:0 3px;
+}
+.forumDiscussion h2 {
+	margin-top:0;
+}
+.quizattemptsummary .forumDiscussion,
+.quizreviewsummary .forumDiscussion {
+	display:none;
+}
+	
+.video {
+  background: url([[pix:theme|icones/iconesVideo]]) no-repeat left top;
+  background-position:0 3px;
+}
+.lecture {
+  background: url([[pix:theme|icones/iconesLectures]]) no-repeat left top;
+  background-position:0 3px;
+}

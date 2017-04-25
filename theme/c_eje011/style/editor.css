@@ -1,0 +1,24 @@
+/**
+ * ************************************************************************
+ * *                  Saint Boniface - TRADUCTION                        **
+ * ************************************************************************
+ * @package     theme                                                    **
+ * @subpackage  boniface_trad                                            **
+ * @name        boniface_trad                                            **
+ * @copyright   oohoo.biz                                                **
+ * @link        http://oohoo.biz                                         **
+ * @author      Nicolas Bretin                                           **
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later **
+ * ************************************************************************
+ * ************************************************************************ */
+
+body, div, p, li, input, option, textarea {
+    font-size: 10pt;
+    line-height: 1.5em;
+}
+body, div, p, li, input, option, textarea, h1, h2, h3, h4, h5 {
+    font-family: Arial,Times,"Times New Roman",serif;
+}
+h2{
+	margin-top:2.5em;
+}

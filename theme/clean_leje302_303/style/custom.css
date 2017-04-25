@@ -1,0 +1,568 @@
+/* Custom CSS 
+-------------------------*/
+{
+	font-size: 0.9em;
+}
+/*_________________ CSS pour ordinateur de bureau _________________*/
+@media screen and (min-width: 975px) and (min-device-width: 1024px){
+	body{
+		background-color: #fff;
+		background-image: url([[pix:theme|arriere-plan]]);
+		background-position: right top;
+		background-repeat: repeat;
+		padding-top:0;
+	}
+	
+	/*_________________ Bannière pour ordinateur de bureau _________________*/
+	#banniere {
+		background: none repeat scroll 0 0 #fff;
+		background-image: url([[pix:theme|banniere-arriere-plan]]);
+		height: 62px;
+		width: 100%;
+		border-style: none;}
+	
+	#banniere-gauche{
+		display:block;
+		float:left;
+		width:340px;
+		height:62px;
+		background-image: url([[pix:theme|banniere-gauche]]);
+		background-repeat: no-repeat;}
+	
+	#banniere-droite{
+		display:block;
+		float:right;
+		width:340px;
+		height:62px;
+		background-image: url([[pix:theme|banniere-droite]]);
+		background-repeat: no-repeat;}
+	
+	.brand {
+		display:none;	}
+	 
+	.navbar-inner {
+		background-color:transparent;
+		background-image:none;
+		height: 36px;
+		filter:none;
+	}
+	.navbar-fixed-top, .navbar-fixed-bottom {
+		position: static;
+	}
+	.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    	border-width: 0;
+	}
+	.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+		box-shadow:none;
+	}
+	.navbar-text {
+		color: #167104;
+	}
+	.navbar-text a:link,
+	.navbar-text a:hover,
+	.navbar-text a:visited
+	 {
+    	color: #fff;
+	}
+	.navbar-text a:hover
+	 {
+    	text-decoration:underline;
+	}
+	.course-content ul li.section.main {
+    	background-color: #fff;
+    	border: 1px solid #000;
+	}
+	
+	/*_________________ Entête ordinateur de bureau _________________*/
+
+	header h1 {
+		color: #167104;
+		font-size: 1.4em;
+		margin: 0.4em;
+		position: absolute;
+		top: 55px;
+	}
+	/*_________________ Block pour ordinateur de bureau _________________*/
+	.block .header h2 {
+		font-size: 0.9em;
+	}
+	
+	/*_________________ General box pour ordinateur de bureau _________________*/
+	.generalbox {
+		background-color: #FFFFFF;
+		border: 1px solid #000;
+		font-size: 0.9em;
+		line-height: 1.4em;
+		margin: 0 0 1em;
+		padding: 1.5em 1.5em;
+	}
+	#intro.generalbox {
+		padding: 1.5em;
+	}
+	.empty-region-side-post.used-region-side-pre #region-main.span8, .jsenabled.docked-region-side-post.used-region-side-pre #region-main.span8 {
+		width: 85%;
+	}
+	.empty-region-side-post.used-region-side-pre #block-region-side-pre.span4, .jsenabled.docked-region-side-post.used-region-side-pre #block-region-side-pre.span4 {
+		width: 14%;
+	}
+	
+	/*_________________ Première page pour ordinateur de bureau _________________*/
+	#page-site-index .navbar-fixed-top {
+		padding-bottom: 15px;
+	}
+	
+	/*_________________ Coursse category pour ordinateur de bureau _________________*/
+	#course-category-listings {
+		background-color:#FFFFFF;
+		border: 1px solid #000;
+	}
+	/*------------------ User menu ------------*/
+	.usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    	color: #167104;
+	}
+}	
+/*_________________ adjustements des colonnes _______________*/
+
+@media screen and (min-width: 975px) and (max-width: 1400px){
+	.empty-region-side-post.used-region-side-pre #region-main.span8, .jsenabled.docked-region-side-post.used-region-side-pre #region-main.span8 {
+		width: 74.3094%;
+	}
+	.empty-region-side-post.used-region-side-pre #block-region-side-pre.span4, .jsenabled.docked-region-side-post.used-region-side-pre #block-region-side-pre.span4 {
+		width: 22.9282%;
+	}
+}
+
+/*_________________ css mobile _________________*/
+@media screen and (max-width: 975px){
+	/*_________________ Afficher logo USB version mobile _________________*/
+	.brand {
+		 height:20px;
+		 width: 156px;
+		 background-image: url([[pix:theme|banniere-droite-mobile]]);
+		 background-repeat: no-repeat;
+		 background-position: 20px center;}
+		 
+	 /*_________________ Navbar mobile _________________*/
+	.navbar-inner {
+	background-image: url([[pix:theme|banniere-arriere-plan]]);
+	background-repeat:repeat;
+		color:#fff;
+	}
+	.navbar-text {
+    color: #fff;
+	}
+	.navbar-text a:link,
+	.navbar-text a:visited {
+		color: #fff;
+		text-decoration:underline;
+	}
+	.navbar .btn-navbar {
+		background-color: #3aa09f;
+		background-image: none;
+		border-color: #fff;
+		box-shadow: none;
+		color: #fff;
+	}
+	.navbar .btn-navbar .icon-bar {
+		background-color: #fff;
+	}
+	.navbar .btn-navbar:hover,
+	.navbar .btn-navbar:focus,
+	.navbar .btn-navbar:active,
+	.navbar .btn-navbar.active,
+	.navbar .btn-navbar.disabled,
+	.navbar .btn-navbar[disabled]{
+		background-color: #fff;
+		color: #3aa09f;
+	}
+	.navbar .btn-navbar:hover .icon-bar,
+	.navbar .btn-navbar:focus .icon-bar,
+	.navbar .btn-navbar:active .icon-bar,
+	.navbar .btn-navbar.active .icon-bar,
+	.navbar .btn-navbar.disabled .icon-bar,
+	.navbar .btn-navbar[disabled] .icon-bar  {
+		background-color: #3aa09f;
+	}
+	
+	/*_________________ Course-content mobile _________________*/
+	.course-content ul li.section.main {
+		border-bottom: 2px solid #3aa09f;
+		margin-top: 0;
+	}
+	
+	/*_________________ Entête mobile _________________*/
+	header h1 {
+		font-size: 1.6em;
+		color: #167104;
+	}
+
+}
+
+/*_________________ lien login _________________*/
+.usermenu .login {
+    color: #fff;
+}
+.usermenu .login a {
+    color: #e5ca82;
+}
+
+/*_________________ Breadcrumb _________________*/
+.breadcrumb {
+	background-image: url([[pix:theme|banniere-arriere-plan]]);
+	background-repeat:repeat;
+}
+.breadcrumb > li {
+	color:#fff;
+	text-shadow: none;
+}
+.breadcrumb > li a:link, 
+.breadcrumb > li a:visited {
+	color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+	text-shadow: none;
+}
+/*_________________ User Menu _________________*/
+.usermenu .moodle-actionmenu .toggle-display {    
+	color: #ffffff;
+}
+.usermenu .moodle-actionmenu .toggle-display:hover {
+    color: #aaa;
+}
+.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret {
+    border-top-color: #fff;
+} 
+
+.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover {
+    background-color:#3aa09f;
+	background-image:none;
+} 
+.jsenabled .usermenu .moodle-actionmenu.show .usertext{
+    color: #333333;
+}
+
+/*_________________ Logo _________________*/
+a.logo {
+    background: url([[setting:logo]]) no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.dir-rtl a.logo {
+    background: url([[setting:logo]]) no-repeat 100% 0;
+    display: block;
+    float: right;
+}
+
+/*_________________ Block _________________*/
+.block {
+    padding: 0 0 8px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.block .header h2 {
+	background-color: #167104;
+	background-image: url([[pix:theme|banniere-arriere-plan]]);
+	background-repeat:repeat;
+	color: #fff;
+	font-size: 0.9em;
+}
+
+/*_________________ Legend _________________*/
+legend {
+    border-bottom-color: #e5ca82;
+    color: #333;
+}
+
+/*_________________ Entête _________________*/
+h1 {
+	color: #167104;
+	font-size:1.5em;
+}
+h2 {
+	color: #167104;
+	font-size:1.3em;
+}
+h3 {
+	color: #167104;
+	font-size:1.2em;
+}
+h4 {
+  	color:#000000;
+	font-size:1.1em;
+}
+h5 {
+	color: #167104;
+	font-size:1.1em;
+}
+
+/*_________________ Contenu _________________*/
+.content h1 {
+	color: #167104;
+}
+.content h2 {
+	color: #167104;
+}
+.content h3 {
+	color: #167104;
+}
+.book_content h1 {
+	color: #167104;
+}
+.book_content h2 {
+	color: #167104;
+}
+.book_content h3 {
+	color: #167104;
+}
+.sectionname {
+	font-size: 1.4em;
+	color: #167104;
+}
+.course-content ul li.section.main.current {
+    background-color: #d9edf7;
+}
+
+/*_________________ Liens _________________*/
+a:link,
+a:visited {
+    color: #0000FF;
+	text-decoration:none;
+}
+a:hover {
+	color:#FF0000;
+	text-decoration:underline;
+}
+
+/*_________________ hr _________________*/
+hr {
+	color:#e5ca82;
+}
+
+/*_________________ Tableaux _________________*/
+table caption,
+.course-content th,
+.course-content td, 
+.generalbox th, 
+.generalbox td, 
+.oublog-post th, 
+.oublog-post td, 
+.forumpost th, 
+.forumpost td {
+    border: 1px solid;
+}
+.foldertree td{
+    border: 0 none;
+}
+
+/*_________________ Calendrier _________________*/
+table.calendartable caption {
+    border: 0 none;
+}
+.block .calendar-event-panel .yui3-overlay-content h2.eventtitle {
+    font-size: 13px;
+    line-height: 1.2;
+}
+.block .minicalendar td a {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/*_________________ Forums _________________*/
+.path-mod-forum .forumheaderlist {
+    background-color: #fff;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+}
+.path-mod-forum .forumheaderlist .discussion .topic, .path-mod-forum .forumheaderlist .discussion .topic.starter, .path-mod-forum .forumheaderlist .discussion .picture, .path-mod-forum .forumheaderlist .discussion .author, .path-mod-forum .forumheaderlist .discussion .replies, .path-mod-forum .forumheaderlist .discussion .lastpost {
+    padding: 0.3em 0.6em;
+    vertical-align: top;
+}
+.forumpost {
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+/*_________________ Boutons _________________*/
+input[type="submit"], button {
+	background-color: #167104;
+	background-image: url([[pix:theme|banniere-arriere-plan]]);
+	background-repeat:repeat;
+	color:#fffffb;
+	border-color:#000;
+	border-style:solid;
+	border-width:1px;
+	margin-left:2px;
+}
+button[disabled]:active, 
+button[disabled],
+input[type="reset"][disabled]:active,
+input[type="reset"][disabled],
+input[type="button"][disabled]:active,
+input[type="button"][disabled],
+select[disabled] > input[type="button"],
+select[disabled] > input[type="button"]:active,
+input[type="submit"][disabled]:active,
+input[type="submit"][disabled] {
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	color: GrayText;
+	background-color: #167104;
+	background-image: url([[pix:theme|banniere-arriere-plan]]);
+	background-repeat:repeat;
+	cursor: inherit;
+	background-image:none;
+}
+input.form-submit, 
+input#id_submitbutton, 
+input#id_submitbutton2, 
+.path-admin .buttons input[type="submit"], 
+td.submit input {
+	background-color: #167104;
+	background-image: url([[pix:theme|banniere-arriere-plan]]);
+	background-repeat:repeat;
+	border-color:#000;
+	color:#fffffb;
+    text-shadow:none;
+}
+input[type="submit"]:visited,
+input[type="submit"]:hover,
+input[type="submit"]:active,
+button:visited,
+button:hover,
+button:active,
+input.form-submit:visited,
+input.form-submit:hover, 
+input.form-submit:active, 
+input#id_submitbutton:visited,
+input#id_submitbutton:hover,
+input#id_submitbutton:active, 
+input#id_submitbutton2:visited,
+input#id_submitbutton2:hover, 
+input#id_submitbutton2:active, 
+.path-admin:hover .buttons input[type="submit"]:visited, 
+.path-admin:hover .buttons input[type="submit"]:hover,
+.path-admin:hover .buttons input[type="submit"]:active,
+td.submit input:visited, 
+td.submit input:hover, 
+td.submit input:active {
+	background-image:none;
+	background-color:#fffffb;
+	color:#167104;
+}
+
+input[type="submit"]:focus {
+	background-image:none;
+	background-color:#fffffb;
+	color:#000000;
+}
+button[disabled]:hover,
+input[type="reset"][disabled]:hover,
+input[type="button"][disabled]:hover,
+select[disabled] > input[type="button"]:hover,
+input[type="submit"][disabled]:hover {
+	background-image:none;
+}
+
+/*_________________ Texte droit d'auteur dans les pieds de page _________________*/
+.droitauteur {
+	font-size:0.65em;
+	text-align:center;
+}
+
+/*_________________ Pied de page _________________*/
+#page-footer {    
+    border-top: 2px solid #000;
+    margin-top: 1em;
+    padding: 1em 0;
+    font-size: 0.8em;
+}
+
+/*_________________ Cacher les cours manquants _________________*/
+.coursManquants{
+	display:none;
+}
+
+/*_________________ Liens grisonées _________________*/
+.course-content ul li.section.hidden .sectionname > span, .course-content ul li.section.hidden .content > div, .course-content ul li.section.hidden .activity .activityinstance {
+    opacity: 0.85;
+}
+a.dimmed, a.dimmed:link, a.dimmed:visited, a.dimmed_text, a.dimmed_text:link, a.dimmed_text:visited, .dimmed_text, .dimmed_text a, .dimmed_text a:link, .dimmed_text a:visited, .usersuspended, .usersuspended a, .usersuspended a:link, .usersuspended a:visited, .dimmed_category, .dimmed_category a {
+    color: #777;
+}
+
+/*_________________ Page Mon Moodle _________________*/
+#page-my-index .coursManquants{
+	display:block;
+}
+
+/*_________________ Modifications OuBlog _________________*/
+#page-mod-oublog-view #middle-column.has-left-column, #page-mod-oublog-viewpost #middle-column.has-left-column, #page-mod-oublog-allposts #middle-column.has-left-column {
+    margin-left: 0;
+}
+
+/*_________________ Quiz _________________*/
+.answer label {
+	padding-left:15px;
+}
+
+/*_________________ Page d'accueil Moodle _________________*/
+#page-site-index .sitetopic {
+	padding:0;
+}
+#page-site-index .sitetopic .no-overflow {	
+	overflow:hidden;
+}
+#page-site-index .sitetopic p{ 
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+#page-site-index .block .content {
+    padding: 0;
+    word-wrap: break-word;
+}
+#page-site-index .block {
+    padding: 0;
+}
+#page-site-index .content .no-overflow {
+    padding-bottom: 0;
+}
+#page-site-index .content p {
+    margin: 0 14px 10px;
+}
+#page-site-index .content ul, 
+#page-site-index .content ol {
+    padding: 0 14px;
+}
+#page-site-index .block .header h2 {
+    margin: 0 0 5px;
+}
+#page-site-index .rememberusername label{
+	font-size:12px;
+}
+.rememberpass {
+	padding:10px 0;
+}
+#page-site-index .content .motdepasseoublie p{
+	margin-left:0;
+	margin-right:0;
+	font-size: 0.8em;
+	text-align:center;
+}
+#page-site-index .content .motdepasseoubliequestion{
+	fon-size:0.9em;
+	font-weight:bold;
+}
+#page-site-index p.sansMarge{
+	margin-left:0;
+	margin-right:0;
+}
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]

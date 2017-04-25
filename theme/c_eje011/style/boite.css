@@ -1,0 +1,101 @@
+/**
+ * ************************************************************************
+ * *                  Saint Boniface - TRADUCTION                        **
+ * ************************************************************************
+ * @package     theme                                                    **
+ * @subpackage  boniface_trad                                            **
+ * @name        boniface_trad                                            **
+ * @copyright   oohoo.biz                                                **
+ * @link        http://oohoo.biz                                         **
+ * @author      Nicolas Bretin                                           **
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later **
+ * ************************************************************************
+ * ************************************************************************ */
+
+#boitebleu {
+                background-color:#bfd9f8;
+				margin-left: 400px;
+				width: 200px;
+}
+
+
+#boiteviolette {
+                background-color:#d9bff2;
+				margin-left: 300px;
+				width: 300px;
+}
+
+#boiteverte {
+                background-color:#c6d99d;
+				margin-left: 200px;
+				width: 400px;
+}
+
+#boiteorange {
+                background-color:#e3cca5;
+                margin-left: 440px;
+				width: 160px;
+}
+
+#boiteblanche {
+    color:#FF6600;
+	margin-left: 20px;
+	width: 150px;
+    border:solid #666;
+	border-width:1px;
+	padding:5px;
+}
+
+
+#boitebleu, #boitebleugrand, #boiteviolette, #boiteverte, #boiteorange, #boiteorangegrand, #boiteblanche {
+				box-shadow: -10px 10px 5px #888888;
+				text-align:center;
+				margin-bottom:30px;
+}
+
+#boitebleu p, #boitebleugrand p, #boiteviolette p, #boiteverte p, #boiteorange p, #boiteorangegrand p, boiteblanche p {
+                padding:10px;
+}
+#boitebleugrand {
+	background-color:#bfd9f8;
+	margin-left: 20px;
+	width: 700px;
+	text-align:left;
+}
+#boiteorangegrand {
+	background-color:#e3cca5;
+	margin-left: 20px;
+	width: 700px;
+	text-align:left;
+}
+
+.caseSpecialeCentrer{
+  margin-left: auto ;
+  margin-right: auto ;
+  width:600px;
+}
+.caseSpecialeCentrer
+.caseSpeciale{
+	width:250px;
+}
+.caseSpeciale{
+    border-radius: 25px;
+    background-color: #4c7ebb;
+    border-color: #345984;
+	border-width:2px;
+	border-style:solid;
+	padding:10px;
+	display:inline-block;   
+	margin: 0 10px 10px;
+	vertical-align:top;
+}
+.caseSpecialeInterieur{
+	background-color:#fff;
+	padding:5px;
+	display:inline-block;
+	
+}
+.caseSpecialeInterieur strong,
+.caseSpecialeInterieur b {
+	color:#FF6600;
+}

@@ -1,0 +1,383 @@
+/*Bannière qui apparait dans l'entête*/
+#banniere {
+	background-color:#24526c;
+	background-repeat:repeat;
+    height: 62px;
+    width: 100%;
+}
+
+#banniere-gauche{
+display:block;
+border-color: #DDDDDD;
+border-left: 1px solid #DDDDDD;
+float:left;
+width:630px;
+height:62px;
+background:url(pix/banniere-gauche.png) no-repeat;}
+
+#banniere-droite{
+display:block;
+border-color: #DDDDDD;
+border-right: 1px solid #DDDDDD;
+float:right;
+width:170px;
+height:62px;
+background:url(pix/banniere-droite.png) no-repeat;}
+
+
+/*barre de navigation*/
+
+.navbar a:link, .navbar a:visited {
+    color: #FFAA55;
+}
+
+.navbar {
+	background-image:url(pix/Entete-arriere-plan-gauche.png);
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+    padding: 3px 0.5em;
+    width: auto;
+}
+
+.logininfo {
+    margin: 0.6em;
+}
+
+#navbar-container {
+	width:100%;
+	background-color:#24526c;
+	height:34px;
+}
+
+#navbar-droite {
+    background-image: url(pix/Entete-arriere-plan-droite.png);
+    background-repeat:no-repeat;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+    display: block;
+    float:right;
+    height: 33px;
+    position: relative;
+    width: 170px;
+}
+
+.navbar .navbutton, .navbar .menu {
+    float: right;
+    position: relative;
+    right: -160px;
+}
+
+/*body*/
+#page {
+margin-top:0px;
+padding:0px;
+}
+
+body {
+background-color:#f1d79f;
+color: #000000;
+margin-top:0px;
+}
+
+/*Entêtes*/
+h1 {
+  font-size:1.4em;
+color:#193647;
+}
+h2 {
+  font-size:1.2em; 
+  color:#cf6140;
+  margin-top:1.9em;
+}
+h3 {
+  font-size:1.1em; 
+  margin-top:1.6em;
+color:#193647;
+}
+h4 {
+  font-size:1.0em;
+}
+
+.sideblock h2 {
+color:#FFFFFF;
+margin: 0;
+padding: 1px 0 0 0;
+}
+
+.content h1 {
+color:#193647;
+}
+
+.content h2 {
+color:#cf6140;
+margin-top:1.5em;
+}
+
+.content h3 {
+font-size:1.05em;
+color:#193647;
+margin-top:1.5em;
+}
+
+.book_content h1 {
+color:#193647;
+}
+
+.book_content h2 {
+color:#cf6140;
+margin-top:1.5em;
+}
+
+.book_content h3 {
+color:#193647;
+margin-top:1.5em;
+}
+
+hr {
+color:#DDDDDD;
+}
+/*Contenu*/
+
+.headermain  {
+color:#FFFFFF;
+}
+
+.headermain, h1.headermain {
+    float: left;
+    margin: 4px;
+    padding: 0;
+}
+
+#header {
+    background-image:url(pix/titre-arriere-plan.png);
+	background-repeat:repeat;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    color: #FFFFFF;
+}
+
+#header-home {
+background-color: #FED65E;
+    border-style: none;
+    padding: 5px;
+}
+
+.reportlink {
+    font-size: 0.9em;
+}
+.content {
+font-size:0.9em;}
+
+#course-view .section {
+  font-size:1em;
+  line-height:1em;
+}
+#course-view .section td.content {
+    background-color: #ffffff;
+}
+
+.headingblock {
+  border-color:#DDDDDD;
+}
+
+.sideblock .header {
+    border: 1 solid #DDDDDD;
+}
+
+.sideblock .content {
+  background-color:#FFFFFF;
+  font-size:0.9em;
+  line-height:1.2em;
+  border-color: #DDDDDD;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.block_activity_modules .sideblock .content {
+  background-color:#FFFFFF;
+  font-size:0.9em;
+  line-height:1.2em;
+  border-color: #DDDDDD;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.sideblock .header .hide-show-image {
+    background-color: #FFFFFF;
+}
+
+th.header, td.header, h1.header, h2.header, h3.header, div.header {
+    background-color: #cf6140;
+    color:#FFFFFF;
+}
+
+.generalbox {
+  font-size:0.9em;
+  background-color:#FFFFFF;
+  border-color:#DDDDDD;
+}
+.generaltable {
+  font-size:0.9em;
+  border-color:#DDDDDD;
+}
+
+.generaltable .cell  {
+    background-color: #FFFFFF;
+    border-color: #DDDDDD;
+	font-size:0.9em;
+}
+
+#course-view .section td.content {
+  padding:5px;
+  padding-bottom:40px;
+  border-style:solid;
+  border-width:1px;
+  border-left:0px;
+  border-right:0px;
+}
+
+#course-view .weekscss .section,
+#course-view .section td {
+  border-color:#DDDDDD;
+}
+
+.categorybox .course {
+    font-size: 0.9em;
+    text-indent: 15px;
+}
+
+/* modification des couleurs de boutons */
+/*input[type="submit"], button {
+background-color:#90B7CB;
+color:#FFFFFF;
+border-color:#DDDDDD;
+border-style:solid;
+border-width:1px;
+margin-left:2px;
+}
+
+button[disabled]:active, button[disabled],
+input[type="reset"][disabled]:active,
+input[type="reset"][disabled],
+input[type="button"][disabled]:active,
+input[type="button"][disabled],
+select[disabled] > input[type="button"],
+select[disabled] > input[type="button"]:active,
+input[type="submit"][disabled]:active,
+input[type="submit"][disabled] {
+  border-color:#999999;
+  border-style:solid;
+  border-width:1px;
+  color: GrayText;
+  background-color:ffffff;
+  cursor: inherit;
+}*/
+
+
+/*text droit d'auteur dans les pieds de page*/
+.droitauteur {
+font-size:0.65em;
+text-align:center;
+}
+
+/*cacher la bannière dans l'outil chat et messages*/
+#mod-chat-gui_header_js-chatinput #banniere {
+  display: none;
+}
+#mod-chat-gui_header_js-users #banniere {
+  display: none;
+}
+#mod-chat-gui_basic-index #banniere {
+display:none;
+}
+
+body#message-user div#banniere {
+  display: none;
+}
+
+
+/*forum*/
+.forumpost .topic .subject {
+  font-weight: bold;
+  font-size:0.9em;
+}
+.forumheaderlist .discussion .starter {
+    background: none repeat scroll 0 0 #DDEFFB;
+}
+.forumheaderlist .discussion .topic ,
+.forumheaderlist .discussion .author,
+.forumheaderlist .discussion .replies {
+  font-size: 0.9em;
+}
+
+.forumheaderlist td  {
+    border-color: #DDDDDD;
+}
+
+.forumpost .topic {
+    background-color: #E9E8E8;
+}
+
+.forumpost .starter {
+    background: none repeat scroll 0 0 #DDEFFB;
+}
+.forumpost .left {
+    background: none repeat scroll 0 0 #DDEFFB;
+}
+
+.forumpost {
+  border-color:#DDDDDD;
+}
+.forumheaderlist, .forumpost {
+    border-color: #DDDDDD;
+	background-color:#ffffff;
+}
+
+/*livres*/
+.book_toc_bullets,
+.book_toc_none,
+.book_toc_numbered,
+.book_toc_indented {
+font-size:0.95em;}
+
+.book_content{
+padding-bottom:35px;}
+
+.booktable .generalbox {
+  border-color:#DDDDDD;
+  background-color:#FFFFFF;
+}
+
+/*Grades*/
+.grade-report-grader table#user-grades th.range {
+    color: #000000;
+}
+.grade-report-grader table#user-grades {
+    border-bottom: 0 none;
+}
+
+.grade-report-grader table tr.avg td.cell, .grade-report-grader table#user-grades td.controls, .grade-report-grader table tr.avg, .grade-report-grader table tr.avg td, .grade-report-grader table tr.avg th {
+    background-color: #DDEFFB;
+}
+#user-grades td.useridnumber, .grade-report-grader table#user-grades th, .grade-report-grader div.gradeparent, .grade-report-grader table#user-grades td.ajax {
+    border-color: #3B6F90;
+}
+.grade-report-grader table {
+    border-color: #3B6F90;
+	border-bottom:0px;
+}
+
+/*login*/
+.loginbox, .loginbox.twocolumns .loginpanel, .loginbox .subcontent {
+    background-color: #FFFFFF;
+    border-color: #DDDDDD;
+}
+
+.categoryboxcontent, .coursebox {
+    background-color: #FFFFFF;
+    border-color: #DDDDDD;
+}

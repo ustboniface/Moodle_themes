@@ -1,0 +1,411 @@
+html {
+    background-color: #bed4d4;
+}
+/*présentation de la page*/
+.side-pre-only #page-content #region-main-box
+{
+    left: 230px;
+}
+.side-pre-only #page-content #region-post-box
+{
+    margin-left: -230px;
+}
+.side-pre-only #page-content #region-main
+{
+    margin-left: 230px;
+}
+.side-pre-only #page-content #region-main .region-content {
+    padding-right: 0;
+}
+.side-pre-only #page-content #region-pre
+{
+    width: 230px;
+	left:0px;
+}
+.side-pre-only #page-content #region-pre .region-content {
+    padding-left: 0;
+}
+.pagelayout-popup #page-content {
+    min-width:100px;
+}
+.pagelayout-popup #page-content #region-main-box {
+    left: 0;
+    width: 100%;
+}
+.pagelayout-popup #page-content #region-post-box {
+    left: 0;
+    margin-left: 0;
+}
+.pagelayout-popup #page-content #region-main-wrap {
+    right: 0;
+	width: 100%;
+}
+.pagelayout-popup #page-content #region-main {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*Bannière qui apparait dans l'entête*/
+#banniere {
+    background-color: #008080;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 0 1px;
+    height: 66px;
+    width: 100%;
+}
+
+#banniere-gauche{
+display:block;
+float:left;
+width:618px;
+height:66px;
+background-image: url([[pix:theme|banniere-gauche]]);
+background-repeat: no-repeat;}
+
+#banniere-droite{
+display:block;
+float:right;
+width:214px;
+height:66px;
+background-image: url([[pix:theme|banniere-droite]]);
+background-repeat: no-repeat;}
+
+/*barre de navigation*/
+.navbar {
+    background-color: #008080;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px 0 0;
+	color:#fff;
+    padding: 3px 0.5em;
+    width: auto;
+}
+.navbar a:link, .navbar a:visited {
+	color: #bed4d4;
+	text-decoration:none;    
+	font-weight: bold;
+}
+.breadcrumb ul {
+    font-weight: bold;
+}
+
+#page-header {
+    background-color: #802a00;
+    border-style: none;
+    color: #762123;
+}
+.arrow, .arrow_button input {
+    color: #ffffff;
+}
+
+/*block*/
+.block {
+    background-color: #fff;
+    border: 1px solid #008080;
+}
+.block .header h2 {
+    background-color: #802a00;
+    color: #f9f9f9;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 0.4em;
+}
+.block_navigation .block_tree li ul {
+    line-height: 1em;
+}
+.block .content {
+    padding: 4px;
+	font-size:0.9em;
+}
+
+.course-content ul.topics li.section, .course-content ul.weeks li.section {
+    background-color: #fff;
+    border: 1px solid #008080;
+    font-size: 0.9em;
+    padding: 1em 0 0;
+}
+.course-content ul.weeks li.section .content {
+    padding: 1em 0 0 1.5em;
+}
+.mform fieldset {
+    background-color: #FFFFFF;
+    border: 1px solid #008080;
+}
+
+.mform fieldset legend {
+    background-color: #FFFFFF;
+    padding: 0 10px;
+}
+body {
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 90%;
+    line-height: 1.2em;
+	margin: 5px 10px;
+}
+.headermain {
+    font-size: 1.4em;    
+	color: #fffffb;
+	margin: 0.4em 0.4em;
+}
+.headermenu .logininfo{
+	color:#fffffb;
+}
+.headermenu .logininfo a:link,
+.headermenu .logininfo a:visited {
+    color: #fffffb;
+}
+/*General box*/
+.generalbox {
+    background-color: #FFFFFF;
+    border: 1px solid #008080;
+	font-size: 0.9em;
+    line-height: 1.4em;
+    margin: 0 0 1em;
+    padding: 1.5em 1.5em;
+}
+#intro.generalbox {
+    padding: 1.5em;
+}
+/*Entête*/
+h1 {
+  	font-size:1.4em;
+	color:#802a00;
+}
+/*h2 {
+  	font-size:1.2em; 
+  	color:#303898;
+  	margin-top:1.9em;
+}*/
+
+h2 {
+    background-color: #fff;
+	border-color: #008080;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    color: #303898;
+    font-size: 1.25em;
+	margin: 0;
+    padding: 1.2em 1.2em 0.5em;
+}
+
+h3 {
+  	font-size:1.1em; 
+  	margin-top:1.6em;
+	color:#802a00;
+}
+h4 {
+  	font-size:1.0em;
+}
+h5 {
+	font-size:1.2em;
+	color:#802a00;
+	margin-top:1.9em;
+}
+
+/*Contenu*/
+
+.content h1 {
+color:#802a00;
+}
+
+.content h2 {
+    border-style: none;
+    color: #303898;
+    margin-top: 1.9em;
+    padding: 0;
+}
+
+.content h3 {
+	color:#802a00;
+margin-top:auto;
+}
+
+.book_content h1 {
+color:#802a00;
+}
+
+/*.book_content h2 {
+color:#303898;
+margin-top:1.9em;
+}*/
+
+.book_content h2 {
+    border-style: none;
+    color: #303898;
+    margin-top: 1.9em;
+    padding: 0;
+}
+
+.book_content h3 {
+	color:#802a00;
+margin-top:1.6em;
+}
+
+.generalbox h2 {
+    border-style: none;
+    color: #303898;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+    margin-top: 1.9em;
+    padding: 0;
+}
+
+.sectionname {
+	color: #909729;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+/*liens*/
+a:link, a:visited {
+    color: #008080;
+    text-decoration: none;
+}
+a:hover {
+	color:#FF0000;
+	text-decoration:underline;
+}
+hr {
+    color: #008080;
+}
+/*blogue*/
+.oublog-post {
+    background-color: #FFFFFF;
+    border: 1px solid #008080;
+}
+/*livres*/
+.block_book_toc .content{
+font-size:1em;}
+/*notes*/
+table#user-grades td.userfield, table#user-grades th, .path-grade-report-grader div.gradeparent, .path-grade-report-grader .ie6 form, table#user-grades td.ajax {
+    font-size: 1.1em;
+    text-align: left;
+}
+/* modification des couleurs de boutons */
+input[type="submit"], button {
+    background-color: #fdf5ae;
+    border-color: #802a00;
+    border-style: solid;
+    border-width: 1px;
+    color: #802a00;
+    margin-left: 2px;
+}
+
+button[disabled]:active, button[disabled],
+input[type="reset"][disabled]:active,
+input[type="reset"][disabled],
+input[type="button"][disabled]:active,
+input[type="button"][disabled],
+select[disabled] > input[type="button"],
+select[disabled] > input[type="button"]:active,
+input[type="submit"][disabled]:active,
+input[type="submit"][disabled] {
+  border-color:#999999;
+  border-style:solid;
+  border-width:1px;
+  color: GrayText;
+  background-color:ffffff;
+  cursor: inherit;
+}
+
+/*forum*/
+.forumpost {
+    background-color: #FFFFFF;
+    border: 1px solid #008080;
+    padding: 1px 5px 3px;
+}
+.path-mod-forum .forumheaderlist {
+    background-color: #FFFFFF;
+    border-color: #008080;
+}
+.path-mod-forum .forumheaderlist td {
+    border-color: #008080;
+}
+h3.discussionname {
+    border-color: #008080;
+    border-style: solid;
+    border-width: 1px 0 0;
+    margin-top: 0;
+    padding-top: 1.6em;
+}
+/*text droit d'auteur dans les pieds de page*/
+.droitauteur {
+font-size:0.65em;
+text-align:center;
+}
+.loginbox {
+    background-color: #FFFFFF;
+    border-color: #008080;
+    border-style: solid;
+    border-width: 1px;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin-top:0;
+	margin-bottom:0;
+}
+.course-content th, 
+.course-content td,
+.generalbox th, 
+.generalbox td,
+.oublog-post th, 
+.oublog-post td,
+.forumpost th,
+.forumpost td{
+    border: 1px solid;
+}
+
+.generalbox {
+	border-width:0 1px 1px;
+}
+
+#intro.generalbox {
+    border-top: 0 none;
+    margin-top: 0;
+}
+
+/*Modification oublog*/
+#page-mod-oublog-view #middle-column.has-left-column, #page-mod-oublog-viewpost #middle-column.has-left-column, #page-mod-oublog-allposts #middle-column.has-left-column {
+    margin-left: 0;
+}
+/* book */
+.book_content {
+    border-width: 0 1px;
+    margin: 0;
+    padding: 0 1.5em 1.5em;
+}
+
+.path-mod-book .navbottom, .path-mod-book .navtop {
+    background-color: #fff;
+	border-color: #008080;
+    border-style: solid;
+    border-width: 1px;
+	padding: 10px 10px 10px 0;
+    text-align: right;
+}
+.path-mod-book .navtop {
+    border-bottom: 0 none;
+    border-top: 0 none;
+    margin-bottom: 0;
+}
+.path-mod-book .navbottom {
+    border-top: 0;
+}
+
+.path-mod-assign .submitconfirm, .path-mod-assign .submissionlinks, .path-mod-assign .submissionaction {
+    background-color: transparent;
+    border-style: none;
+    text-align: center;
+}
+
+/* quiz */
+.answer label {
+	padding-left:15px;
+}
+/* hidden */
+.hidden.sectionname {
+    display: none;
+    visibility: hidden;
+}

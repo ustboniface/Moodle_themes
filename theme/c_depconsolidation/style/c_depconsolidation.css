@@ -1,0 +1,666 @@
+html {
+    background-color:#ffffff;
+background-image: url([[pix:theme|bg]]);
+background-repeat:repeat-x;
+}
+#page {
+	min-width:1000px;
+}
+/*présentation de la page*/
+#page-content #region-main-box
+{    width: 198%;
+    left: 230px;
+}
+#page-content #region-post-box
+{
+    margin-left: -230px;
+}
+#page-content #region-main
+{
+    margin-left: 230px;
+}
+#page-content #region-main .region-content {
+    padding-right: 0;
+}
+#page-content #region-pre
+{
+    width: 230px;
+	left:0px;
+	
+}
+.side-pre-only #page-content #region-pre {
+    left: -30px;
+}
+#page-content #region-pre .region-content {
+    padding-left: 0;
+}
+/*Bannière qui apparait dans l'entête*/
+#banniere {
+    background-color:#505050;
+    height: 66px;
+    width: 100%;    
+	border-style: solid;
+    border-width: 0;
+	border-color:#a1a365;
+}
+
+#banniere-gauche{
+display:block;
+float:left;
+width:424px;
+height:66px;
+background-image: url([[pix:theme|bnr-gauche]]);
+background-repeat: no-repeat;}
+
+#banniere-droite{
+display:block;
+float:right;
+width:210px;
+height:66px;
+background-image: url([[pix:theme|bnr-droite]]);
+background-repeat: no-repeat;}
+
+#page-header {
+    background-color: #8cc63f;
+    border-color: #a8cc63f;
+    border-style: solid;
+    border-width: 0;
+    color: #FFFFFF;
+	min-width: 1200px;
+}
+.logininfo a:link,
+.logininfo a:visited,
+.logininfo a:hover
+{
+    color: #efebee;
+    text-decoration: underline;
+}
+
+/*barre de navigation*/
+.navbar {
+    background-color:#505050;
+	border-color:#a1a365;
+    border-style: solid;    
+	border-width: 0;
+    color: #b8b8b9;
+    padding: 3px 0.5em;
+    width: auto;
+}
+.navbar a:link, .navbar a:visited {
+    color: #FFFFFF;
+	text-decoration:none;    
+	font-weight: bold;
+}
+
+/*block*/
+.block {
+    border: 1px solid #8cc63f;
+    background-color: #FFFFFF;
+}
+.block .header h2 {
+    background-color:#8cc63f;
+	color:#FFFFFF;
+    font-size: 0.9em;
+    font-weight: bold;
+	padding:0.4em;
+}
+.block_navigation .block_tree li ul {
+    line-height: 1em;
+}
+.block .content {
+    padding: 4px;
+	font-size:0.9em;
+}
+
+.course-content ul.topics li.section,
+.course-content ul.weeks li.section {
+    background-color: #FFFFFF;
+    border: 1px solid #8cc63f;
+    padding: 1em 0 0;
+	font-size:0.9em;
+}
+.mform fieldset {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.mform fieldset legend {
+    background-color: #FFFFFF;
+    padding: 0 10px;
+}
+body {
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 90%;
+    line-height: 1.2em;
+	margin: 5px 10px;
+}
+.headermain {
+    font-size: 1.4em;    
+	color: #FFFFFF;
+	margin: 0.4em 0.4em;
+}
+
+/*General box*/
+.generalbox {
+    background-color: #FFFFFF;
+    border: 1px solid #8cc63f;
+	font-size: 0.9em;
+    line-height: 1.4em;
+    margin: 0 0 1em;
+    padding: 1.5em 1.5em;
+}
+
+
+#intro.generalbox {
+    padding: 5px 15px 5px 5px;
+}
+/*Entête*/
+h1 {
+  font-size:1.4em;
+color:#505050;
+line-height:1.1em;
+}
+h2 {
+  font-size:1.2em; 
+  color:#505050;
+  margin-top:1.9em;
+}
+h3 {
+  font-size:1.1em; 
+  margin-top:1.6em;
+  color:#505050;
+}
+h4 {
+  font-size:1.0em;
+}
+h5 {
+  font-size:1.2em;
+  color:#5f9b0f;
+  margin-top:1.9em;
+}
+
+/*Contenu*/
+.content h1 {
+color:#505050;
+}
+
+.content h2 {
+color:#5f9b0f;
+margin-top:auto;
+
+}
+
+.content h3 {
+color:#505050;
+margin-top:auto;
+}
+
+.book_content h1 {
+color:#505050;
+}
+
+.book_content h2 {
+color:#5f9b0f;
+margin-top:1.9em;
+}
+
+.book_content h3 {
+color:#505050;
+margin-top:1.6em;
+}
+
+h2.main {    
+  margin-bottom: 0.4em;
+  margin-top: 0.2em;
+  font-size:1.7em;
+  color: #ffffff;
+  line-height:1.1em;
+  -webkit-text-stroke: 1px black;
+  text-shadow:
+       3px 3px 0 #505050,
+     -1px -1px 0 #505050,  
+      1px -1px 0 #505050,
+      -1px 1px 0 #505050,
+       1px 1px 0 #505050;
+
+}
+
+#feedback h2.main {    
+  margin-bottom: 0.4em;
+  margin-top: 0.2em;
+  font-size:1.4em;
+  color: #505050;
+  line-height:1.1em;
+  -webkit-text-stroke:none;
+  text-shadow:none;
+
+}
+
+.sectionname {
+	color: #4d0833;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+/*liens*/
+a:link,
+a:visited {
+    color: #060467;
+	text-decoration:none;
+}
+a:hover {
+	color:#FF0000;
+	text-decoration:underline;
+}
+hr {
+color:#000000;
+}
+/*blogue*/
+.oublog-post {
+    background-color: #FFFFFF;
+    border: 1px solid #8cc63f;
+}
+/*livres*/
+.block_book_toc .content{
+font-size:1em;}
+/*notes*/
+table#user-grades td.userfield, table#user-grades th, .path-grade-report-grader div.gradeparent, .path-grade-report-grader .ie6 form, table#user-grades td.ajax {
+    font-size: 1.1em;
+    text-align: left;
+}
+/*forum*/
+.forumpost {
+    background-color: #FFFFFF;
+    border: 1px solid #8cc63f;
+    padding: 1px 5px 3px;
+}
+.path-mod-forum .forumheaderlist {
+    background-color: #FFFFFF;
+    border-color: #8cc63f;
+}
+.path-mod-forum .forumheaderlist td {
+    border-color: #8cc63f;
+}
+/*text droit d'auteur dans les pieds de page*/
+.droitauteur {
+font-size:0.65em;
+text-align:center;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin-top:0;
+	margin-bottom:0;
+}
+.course-content th, 
+.course-content td,
+.generalbox th, 
+.generalbox td,
+.oublog-post th, 
+.oublog-post td,
+.forumpost th,
+.forumpost td{
+    border: 1px solid;
+}
+/*Modification oublog*/
+#page-mod-oublog-view #middle-column.has-left-column, #page-mod-oublog-viewpost #middle-column.has-left-column, #page-mod-oublog-allposts #middle-column.has-left-column {
+    margin-left: 0;
+}
+
+/*
+Button
+-----------------------*/
+/*use to include select, input,*/
+input[type="submit"], button, a.standardbutton, a.arrow_link, 
+#page-mod-quiz-attempt .submitbtns a:link, 
+#page-mod-quiz-attempt .submitbtns a:visited, 
+#page-mod-quiz-review .submitbtns a:link, 
+#page-mod-quiz-review .submitbtns a:visited,
+.bouton-general a:link, .bouton-general a:visited,
+.precedent a:link,
+.precedent a:visited,
+.suivant a:link,
+.suivant a:visited
+ {
+    background-color: #8cc63f;
+    font-family: monospace, Courier, "Courier New";
+    color: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 0 2px;
+    cursor: pointer;
+	border-color:#919192;
+	border-width:1px;
+	border-style:solid;
+}
+
+input[type="submit"]:hover, 
+button:hover, 
+a.standardbutton:hover,
+#page-mod-quiz-attempt .submitbtns a:hover,
+#page-mod-quiz-review .submitbtns a:hover,
+.precedent a:hover,
+.suivant a:hover
+ {
+    background-color: #fff;
+	color:#4b7eba;
+	text-decoration:none;
+}
+/*pied de page*/
+#page-footer {
+    background-color: #505050;
+	background-repeat: no-repeat;;
+    border-color: #8cc63f;
+    border-style: solid;
+    border-width: 2px 0 0;
+    color: #fff;
+    padding: 10px 0 0;
+}
+#page-footer a:link, #page-footer a:visited {
+    color: #FFFFFF;
+	text-decoration:none; 
+}
+/*questions*/
+.que .info {
+    display: none;
+}
+.que .content {
+    margin: 0;
+}
+.que .formulation{
+	background-color:#fff;
+    border: 1px solid #8cc63f;
+}
+.que .outcome{
+	background-color:#ecfbef;
+    border: 1px solid #8cc63f;
+}
+.que.ddwtos .drop {
+    background-color: #f9f7c6;
+}
+.que.ddwtos .notreadonly .drag {
+    background-color: #cbe8a5;
+}
+.que.ddwtos .readonly .drag {
+    background-color: #cbe8a5;
+}
+ol.questionsDEP {
+    counter-reset:li; /* Initiate a counter */
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+}
+ol.questionsDEP > li {
+    background: none repeat scroll 0 0 #fff;
+    list-style: outside none none;
+    margin: 0 0 10px 2em;
+    padding: 0px 8px 8px 8px;
+    position: relative;
+}
+ol.questionsDEP > li:before {
+    background: none repeat scroll 0 0 #505050;
+    box-sizing: border-box;
+    color: #fff;
+    content: counter(li, decimal);
+    counter-increment: li;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-weight: bold;
+    height: 100%;
+    left: -2em;
+    margin-right: 8px;
+    padding: 4px;
+    position: absolute;
+    text-align: center;
+    width: 2em;
+}
+.questionBoiteDEP{
+	border-style:solid;
+	border-width:1px;
+	padding:0 4px;
+	border-color:#009;
+	
+}
+table.tableauQuestionDEP, .tableauQuestionDEP td, .tableauQuestionDEP th {
+	font-family: Verdana, Arial, sans-serif
+	border-collapse: collapse;
+	border-spacing: 0px;
+    border: 1px solid #505050;
+
+}
+.tableauQuestionDEP td.first {
+	padding: 10px;
+    color: #000000;
+    background-color: #a8a8a9; 
+}
+.tableauQuestionDEP td.second {
+	padding: 10px;
+	color: #000000;
+    background-color: #ffffff;
+}
+.tableauQuestionDEP th {
+	padding: 5px;
+	background-color: #8cc63f;
+    color: #ffffff;
+	text-align:left
+}
+
+/*bouton précédent suivant */
+
+.precedent,
+.suivant{
+	display:inline-block;
+	padding: 40px 50px 10px 0;
+}
+.precedent {
+	float:left;
+}
+.suivant{
+	float:right;
+}
+
+.quizattemptsummary .precedent,
+.quizattemptsummary .suivant,
+.quizattemptsummary .bouton-general,
+table.quizreviewsummary .precedent,
+table.quizreviewsummary .suivant,
+table.quizreviewsummary .bouton-general {
+    display:none;
+}
+
+.quizattemptsummary .lastcol {
+    display:none;
+}
+
+/*allonger le champ input de quiz*/
+
+.allonger input[type="text"] {
+	width:80%;
+}
+
+.fiche {    
+	margin: auto;
+    position: relative;
+    width: 665px;
+	height: 600px; 
+	background-image: url([[pix:theme|DEP-Consol_fche-mediatique_revision_v2]]);
+	background-repeat: no-repeat;
+}
+
+#revision {
+	position: absolute;
+	top: 64px;
+	left: -1px;
+	width: 144px;
+	height: 146px;
+	background-color: transparent;
+	border: none;
+}              
+
+a.revision:hover {
+	background-image: url([[pix:theme|bouton_revision]]);
+}
+
+#mod5 {
+	position: absolute;
+	top: 214px;
+	left: 125px;
+	width: 134px;
+	height: 133px;
+	background-color: transparent;
+	border: none;
+}              
+
+a.mod5:hover {
+	background-image: url([[pix:theme|bouton_mod5]]);
+}
+			   
+#mod4 {
+	position: absolute;
+	top: 430px;
+	left: 330px;
+	width: 137px;
+	height: 138px;
+	background-color: transparent;
+	border: none;
+}              
+			   
+a.mod4:hover {
+	background-image: url([[pix:theme|bouton_mod4]]);
+}
+                                               
+#mod3 {
+	position: absolute;
+	top: 212px;
+	left: 516px;
+	width: 136px;
+	height: 138px;
+	background-color: transparent;
+	border: none;
+}              
+
+a.mod3:hover {
+	background-image: url([[pix:theme|bouton_mod3]]);
+}
+
+#mod2 {
+	position: absolute;
+	top: 6px;
+	left: 330px;
+	width: 135px;
+	height: 134px;
+	background-color: transparent;
+	border: none;
+}              
+
+a.mod2:hover {
+	background-image: url([[pix:theme|bouton_mod2]]);
+}
+			   
+#mod1 {
+	position: absolute;
+	top: 195px;
+	left: 311px;
+	width: 172px;
+	height: 176px;
+	background-color: transparent;
+	border: none;
+}              
+
+a.mod1:hover {
+	background-image: url([[pix:theme|bouton_mod1]]);
+}
+
+/* Elements graphiques */
+.slantbox {
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
+	width: 300px;
+	padding: 40px;
+	border: 1px solid #a1a365;
+	background: #8cc63f; /* if all else fails */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#8cc63f));
+	background: -webkit-linear-gradient(white, #8cc63f); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, #8cc63f); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, #8cc63f); /* For Firefox 3.6 to 15 */
+	background: -ms-linear-gradient(white, #b8b8b9); /* For IE 9 */
+	background: linear-gradient(white, #8cc63f); /* Standard syntax (must be last) */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#8cc63f'); /*for IE 8 and earlier*/
+	zoom: 1; 
+	-ms-transform: skewX(-10deg); /* IE 9 */
+	-webkit-transform: skewX(-10deg); /* Safari */
+	transform: skewX(-10deg); /* Standard syntax */
+	box-shadow: 2px 2px 2px #888888;
+	box-sizing: border-box;
+
+	}
+.slanttext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #060467;
+	-ms-transform: skewX(10deg); /* IE 9 */
+	-webkit-transform: skewX(10deg); /* Safari */
+	transform: skewX(10deg); /* Standard syntax */
+
+	}
+                
+.objectifbox {
+	height: 30px;
+	width: 175px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-align: center;
+	margin-left:auto; margin-right:auto; 
+	padding-top: 5px;
+	background: #8cc63f; /* if all else fails */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#8cc63f));
+	background: -webkit-linear-gradient(white, #8cc63f); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, #8cc63f); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, #8cc63f); /* For Firefox 3.6 to 15 */
+	background: -ms-linear-gradient(white, #b8b8b9); /* For IE 9 */
+	background: linear-gradient(white, #8cc63f); /* Standard syntax (must be last) */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#8cc63f'); /*for IE 8 and earlier*/
+	zoom: 1;
+	box-shadow: 2px 2px 2px #888888;
+	box-sizing: border-box;
+}
+                
+.modulebox {
+	height: 30px;
+	width: 120px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: darkgreen;
+	text-align: center;
+	align: middle;
+	padding-top: 5px;
+	border: 1px solid gray;
+	background: #b8b8b9; /* if all else fails */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#b8b8b9));
+	background: -webkit-linear-gradient(white, #b8b8b9); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, #b8b8b9); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, #b8b8b9); /* For Firefox 3.6 to 15 */
+	background: -ms-linear-gradient(white, #b8b8b9); /* For IE 9 */
+	background: linear-gradient(white, #b8b8b9); /* Standard syntax (must be last) */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#b8b8b9'); /*for IE 8 and earlier*/
+	zoom: 1;
+	box-shadow: 2px 2px 2px #888888;
+	box-sizing: border-box;
+}
+
+.dottedbox {
+	width: 420px;
+	height: 85px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	padding: 10px;
+	border: 2px dashed #a1a365;
+	border-radius: 5px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+}           
+/* hidden */
+.hidden.sectionname {
+    display: none;
+    visibility: hidden;
+}   

@@ -1,0 +1,61 @@
+/**
+ * ************************************************************************
+ * *                  Saint Boniface - TRADUCTION                        **
+ * ************************************************************************
+ * @package     theme                                                    **
+ * @subpackage  boniface_trad                                            **
+ * @name        boniface_trad                                            **
+ * @copyright   oohoo.biz                                                **
+ * @link        http://oohoo.biz                                         **
+ * @author      Nicolas Bretin                                           **
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later **
+ * ************************************************************************
+ * ************************************************************************ */
+
+.precedent,
+.suivant{
+	display:inline-block;
+	padding: 40px 50px 10px 0;
+}
+.precedent {
+	float:left;
+}
+.suivant{
+	float:right;
+}
+.submitbtns a:link,
+.submitbtns a:visited,
+.submissionlinks a:link,
+.submissionlinks a:visited,
+.precedent a:link,
+.precedent a:visited,
+.suivant a:link,
+.suivant a:visited {
+    background-color: #4c7ebb;
+    border-color: #4b7eba;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    cursor: pointer;
+    font-family: monospace,Courier,"Courier New";
+    margin: 0 2px;
+    padding: 3px;
+	font-weight:bold;
+}
+.submitbtns a:hover,
+.submissionlinks a:hover,
+.precedent a:hover,
+.suivant a:hover {
+    background-color: #fff;
+    color: #4c7ebb;
+	text-decoration:none;
+}
+
+
+.quizattemptsummary .precedent,
+.quizattemptsummary .suivant,
+table.quizreviewsummary .precedent,
+table.quizreviewsummary .suivant {
+    display:none;
+}

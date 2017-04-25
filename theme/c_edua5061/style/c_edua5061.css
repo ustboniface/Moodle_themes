@@ -1,0 +1,279 @@
+html {
+    background-image: url([[pix:theme|arriere-plan]]);
+}
+/*présentation de la page*/
+#page-content #region-main-box
+{
+    left: 230px;
+}
+
+#page-content #region-post-box
+{
+    margin-left: -230px;
+}
+#page-content #region-main
+{
+    margin-left: 230px;
+}
+
+#page-content #region-main .region-content {
+    padding-right: 0;
+}
+#page-content #region-pre
+{
+    width: 230px;
+	left:0px;
+}
+
+
+#page-content #region-pre .region-content {
+    padding-left: 0;
+}
+/*Bannière qui apparait dans l'entête*/
+#banniere {
+    background: none repeat scroll 0 0 #54778B;
+    height: 62px;
+    width: 100%;
+	border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px 1px 0;
+}
+
+#banniere-gauche{
+display:block;
+float:left;
+width:450px;
+height:62px;
+background-image: url([[pix:theme|banniere-gauche]]);
+background-repeat: no-repeat;}
+
+#banniere-droite{
+display:block;
+float:right;
+width:181px;
+height:62px;
+background-image: url([[pix:theme|banniere-droite]]);
+background-repeat: no-repeat;}
+
+/*barre de navigation*/
+.navbar {    
+	background-color: #54778B;
+    background-position: center top;
+    background-repeat: repeat-x;
+    border-style: solid;    
+	border-width: 1px 0;
+	border-color: #dddddd;
+    color: #dddddd;
+    padding: 3px 0.5em;
+    width: auto;
+}
+.navbar a:link, .navbar a:visited {
+    color: #FFAA55;
+	text-decoration:none;    
+	font-weight: bold;
+}
+
+#page-header {
+    background-color: #90B7CB;
+	border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    color: #ffffff;
+}
+
+/*block*/
+.block {
+    border: 1px solid #DDDDDD;
+	background-color:#ffffff;
+}
+.block .header h2 {    
+	background-color: #54778B;
+	color:#FFFFFF;
+    font-size: 0.9em;
+    font-weight: bold;
+	padding:0.4em;
+}
+.block_navigation .block_tree li ul {
+    line-height: 1em;
+}
+.block .content {
+    background-color: #FFFFFF;    
+    padding: 4px;
+	font-size:0.9em;
+}
+
+.course-content ul.topics li.section,
+.course-content ul.weeks li.section {
+    background-color: #FFFFFF;
+    border: 1px solid #dddddd;
+    padding: 1em 0 0;
+	font-size:0.9em;
+}
+.mform fieldset {
+    background-color: #FFFFFF;
+    border: 1px solid #dddddd;
+}
+
+.mform fieldset legend {
+    background-color: #FFFFFF;
+    padding: 0 10px;
+}
+body {
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 90%;
+    line-height: 1.2em;
+	margin: 5px 10px;
+}
+.headermain {
+    font-size: 1.4em;    
+	color: #FFFFFF;
+	margin: 0.4em 0.4em;
+}
+
+/*General box*/
+.generalbox {
+    background-color: #FFFFFF;
+    border: 1px solid #dddddd;
+	font-size: 0.9em;
+    line-height: 1.4em;
+    margin: 0 0 1em;
+    padding: 1.5em 1.5em;
+}
+/*Entête*/
+h1 {
+  font-size:1.4em;
+color:#c1272d;
+line-height:1.1em;
+}
+h2 {
+  font-size:1.2em; 
+  color:#684086;
+  margin-top:1.9em;
+}
+h3 {
+  font-size:1.1em; 
+  margin-top:1.6em;
+  color:#c1272d;
+}
+h4 {
+  font-size:1.0em;
+}
+h5 {
+  font-size:1.2em;
+  color:#684086;
+  margin-top:1.9em;
+}
+
+/*Contenu*/
+.content h1 {
+color:#c1272d;
+}
+
+.content h2 {
+color:#684086;
+margin-top:auto;
+
+}
+
+.content h3 {
+color:#c1272d;
+margin-top:auto;
+}
+
+.book_content h1 {
+color:#c1272d;
+}
+
+.book_content h2 {
+color:#684086;
+margin-top:1.9em;
+}
+
+.book_content h3 {
+color:#c1272d;
+margin-top:1.6em;
+}
+.sectionname {
+	color: #c1272d;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+/*liens*/
+a:link,
+a:visited {
+    color: #0000FF;
+	text-decoration:none;
+}
+a:hover {
+	color:#FF0000;
+	text-decoration:underline;
+}
+hr {
+color:#000000;
+}
+/*blogue*/
+.oublog-post {
+    background-color: #FFFFFF;
+    border: 1px solid #dddddd;
+}
+/*livres*/
+.block_book_toc .content{
+font-size:1em;}
+/*notes*/
+table#user-grades td.userfield, table#user-grades th, .path-grade-report-grader div.gradeparent, .path-grade-report-grader .ie6 form, table#user-grades td.ajax {
+    font-size: 1.1em;
+    text-align: left;
+}
+/*forum*/
+.forumpost {
+    background-color: #FFFFFF;
+    border: 1px solid #dddddd;
+    padding: 1px 5px 3px;
+}
+.path-mod-forum .forumheaderlist {
+    background-color: #FFFFFF;
+	border-color: #dddddd;
+}
+.path-mod-forum .forumheaderlist td {
+	border-color: #dddddd;
+}
+/*text droit d'auteur dans les pieds de page*/
+.droitauteur {
+font-size:0.65em;
+text-align:center;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.course-content th, 
+.course-content td,
+.generalbox th, 
+.generalbox td,
+.oublog-post th, 
+.oublog-post td,
+.forumpost th,
+.forumpost td{
+    border: 1px solid;
+}
+.noBorderTable,
+.noBorderTable td {
+    border: none;
+}
+/*Modification oublog*/
+#page-mod-oublog-view #middle-column.has-left-column, #page-mod-oublog-viewpost #middle-column.has-left-column, #page-mod-oublog-allposts #middle-column.has-left-column {
+    margin-left: 0;
+}
+/* quiz */
+.answer label {
+	padding-left:15px;
+}
+/* hidden */
+.hidden.sectionname {
+    display: none;
+    visibility: hidden;
+}

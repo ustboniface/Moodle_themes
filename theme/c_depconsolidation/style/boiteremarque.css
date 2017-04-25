@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.remarqueTopGauche{
+	float:left;
+	height:102px;
+    background-image:url([[pix:theme|remarque/TopGauche]]);
+	width:84px;}
+.remarqueTopCentre{
+	float:left;
+	height:102px;
+    background-image:url([[pix:theme|remarque/TopCentre]]);
+	background-repeat:repeat-x;
+	width:40%;}	
+.remarqueTopDroite{
+	float:left;
+	height:102px;
+    background-image:url([[pix:theme|remarque/TopDroite]]);
+	width:96px;}
+	
+.remarqueCoteGauche{
+	float:left;
+	height:50px;
+    background-image:url([[pix:theme|remarque/CoteGauche]]);
+	background-repeat:repeat-y;
+	width:84px;}	
+.remarqueMiddle{
+	float:left;
+	height:50px;
+    background-color: white;
+	background-repeat:repeat-x;
+	background-repeat:repeat-y;
+	width:40%;}
+.remarqueCoteDroite{
+	float:left;
+	height:50px;
+    background-image:url([[pix:theme|remarque/CoteDroite]]);
+	background-repeat:repeat-y;
+	width:96px;}
+
+.remarqueBottomGauche{
+	float:left;
+	height:99px;
+    background-image:url([[pix:theme|remarque/BottomGauche]]);
+	width:84px;}
+.remarqueBottomCentre{
+	float:left;
+	height:99px;
+    background-image:url([[pix:theme|remarque/BottomCentre]]);
+	background-repeat:repeat-x;
+	width:40%;}
+.remarqueBottomDroite{
+	float:left;
+	height:99px;
+    background-image:url([[pix:theme|remarque/BottomDroite]]);
+	width:96px;}
+	
+.clearfix {
+    clear:both;
+}

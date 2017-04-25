@@ -1,0 +1,206 @@
+/**
+ * ************************************************************************
+ * *                  Saint Boniface - TRADUCTION                        **
+ * ************************************************************************
+ * @package     theme                                                    **
+ * @subpackage  boniface_trad                                            **
+ * @name        boniface_trad                                            **
+ * @copyright   oohoo.biz                                                **
+ * @link        http://oohoo.biz                                         **
+ * @author      Nicolas Bretin                                           **
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later **
+ * ************************************************************************
+ * ************************************************************************ */
+
+/* FORMAT TAB*/
+/* The border under tabs */
+.yui3-skin-sam .yui3-tabview-list
+{
+    border-bottom-color: #cb2121 !important;
+}
+/*The regular tab style*/
+.yui3-skin-sam .yui3-tab-label
+{
+    background-color: #EFEFEF !important;
+}
+/*The regular tab style hover*/
+.yui3-skin-sam .yui3-tab-label:focus,
+.yui3-skin-sam .yui3-tab-label:hover
+{
+    background-color: #fff2f2 !important;
+}
+/*The selected tab border color*/
+.yui3-skin-sam .yui3-tab-selected .yui3-tab-label, 
+.yui3-skin-sam .yui3-tab-selected .yui3-tab-label:focus, 
+.yui3-skin-sam .yui3-tab-selected .yui3-tab-label:hover
+{
+    border-color: #a41e1e !important;
+    background-color: #cb2121 !important;
+}
+/*The tab content background color*/
+.yui3-skin-sam .yui3-tabview-panel
+{
+    background-color: #FFFFFF !important;
+}
+
+/* MOD TAB DISPLAY */
+#page-mod-tab-view ul.menutable li.menutitle,
+#page-mod-tab-view .TabbedPanelsTab
+{
+    background-color: #cb2121 !important;
+}
+
+#page-mod-tab-view .TabbedPanelsTabHover
+{
+    background-color: #f36868 !important;
+}
+
+#page-mod-tab-view .TabbedPanelsTabSelected
+{
+    background-color: #496389 !important;
+    color: #FFFFFF !important;
+}
+
+#page-mod-tab-view .generalbox,
+#page-mod-tab-view .generalbox .TabbedPanels
+{
+    background: transparent !important;
+    border: 0px none !important;
+    padding: 0 !important;
+}
+
+
+/* BLOCK ACTIVITY SECTIONS */
+
+.block-region .block_activity_list
+{
+    border: 0 none;
+    background: transparent;
+}
+.block-region .block_activity_list .header
+{
+    text-align: left;
+    color: #cb2121;
+    font-family: monospace, Courier, "Courier New";
+    padding-left: 20px;
+}
+
+.block-region .block_activity_list .content
+{
+    padding-top: 7px;
+    background: transparent url([[pix:theme|custom/block_top]]) no-repeat top center;
+}
+
+
+.block-region .block_activity_list .content ul
+{
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 1px;
+    list-style-type: none;
+    width: 181px;
+}
+
+.block-region .block_activity_list .content li
+{
+    margin-bottom: 1px;
+    height: 24px;
+    background: transparent url([[pix:theme|custom/block_middle]]) no-repeat top center;
+}
+.block-region .block_activity_list .content li:hover
+{
+    background: transparent url([[pix:theme|custom/block_middle_hover]]) no-repeat top center;
+}
+
+
+.block-region .block_activity_list .content li a,
+.block-region .block_activity_list .content li a:hover
+{
+    display: block;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    vertical-align: middle;
+    text-decoration: none;
+    overflow:hidden;
+}
+
+.block-region .block_activity_list .footer
+{
+    margin-top: 0px;
+    height: 56px;
+    margin-bottom: 15px;
+    background: transparent url([[pix:theme|custom/block_bottom]]) no-repeat top center;
+}
+
+/* BLOCK CUSTOM LIST */
+
+.block-region .block_custom_list
+{
+    border: 0 none;
+    background: transparent;
+}
+.block-region .block_custom_list .header
+{
+    text-align: left;
+    color: #cb2121;
+    font-family: monospace, Courier, "Courier New";
+    padding-left: 20px;
+}
+
+.block-region .block_custom_list .content
+{
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF url([[pix:theme|custom/nav_gauche_haut]]) no-repeat top center;
+}
+
+.block-region .block_custom_list .content ul
+{
+    margin: 2px auto 0;
+	padding: 1px 1px 0.1px;
+    list-style-type: none;
+    width: 218px;
+	background-color:#ffffff;
+}
+
+.block-region .block_custom_list .content li
+{
+    margin-bottom: 2px;
+    height: 24px;
+    background-color: #8cc63f;
+}
+.block-region .block_custom_list .content li:hover
+{
+    background-color: #e6f8cd;
+}
+
+.block-region .block_custom_list .content li a,
+.block-region .block_custom_list .content li a:hover
+{
+    display: block;
+    width: 208px;
+    height: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    vertical-align: middle;
+    text-decoration: none;
+    overflow:hidden;
+	font-weight:bold;
+}
+
+.block-region .block_custom_list .content li a:hover
+{
+    color: #8cc63f;
+}
+
+.block-region .block_custom_list .footer
+{
+    /*margin-top: 0px;*/
+    height: 0px;
+    /*margin-bottom: 0px;
+    background: transparent url([[pix:theme|custom/nav_gauche_bas]]) no-repeat top center;*/
+}
